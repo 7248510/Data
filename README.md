@@ -1,2 +1,2 @@
 # Data
-MySQL or Mongo are the databases used.
+PostgreSQL or Mongo are the databases used.
