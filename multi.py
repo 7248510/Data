@@ -2,14 +2,14 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import re
-from config import urls, session, headers, urlList
+from config import urls, session, headers, urlList#,cookies
 #urll = function url list
 def urll():
     print("Scrapping "+ urlList[0])
     #Scrapping from a url
     for url in urlList:
         #time.sleep(2) #Loops every X seconds, remove the comment if you're going live/plan to scrape a lot
-        page = requests.get(url,headers=headers)
+        page = requests.get(url,headers=headers) #,cookies=cookies
         html = page.content
         bs = BeautifulSoup(html, 'html.parser')
         test = bs.find('title')
@@ -26,7 +26,7 @@ def urll():
 def urla():
     #Scrapping from an array
     for url in urls:
-        page = requests.get(url,headers=headers)
+        page = requests.get(url,headers=headers) #,cookies=cookies
         html = page.content
         bs = BeautifulSoup(html, 'html.parser')
         test = bs.find('title')

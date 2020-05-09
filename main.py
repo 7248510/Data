@@ -1,3 +1,3 @@
-from multi import urll, urla 
+from multi import * 
 urll()
 urla()
