@@ -18,4 +18,10 @@ for x in controller:
     html = page.content
     bs = BeautifulSoup(html, 'html.parser')
     for a in bs.findAll("p"):
-        print(a.get_text())
+        print(a.get_text())  
+        z = a.get_text() 
+        complete = z + "\n"
+        #Another logical error solved. It has to append, not write!
+        with open('Sample.txt','a') as f:
+            f.write(complete)
+            f.close()  
