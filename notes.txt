@@ -1,0 +1,4 @@
+Examples:
+Combining two dictionaries | dict = {**dict1,**dict2}
+Combining two string classes into a dict | inst = dict(zip(j,r))
+Make sure you're checking the type of data | print(type(var1))
