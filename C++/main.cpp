@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "sqlite3.h" //You need your header file
-//You also need sqlite's dll in the same directory as your program. Without the dll, windows displays a system error
+//You also need Sqlite's dll in the same directory as your program. Without the dll, windows displays a system error
 //https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
 //Tutorial points Connect to a database
+//Removed the main files except main.cpp, the Sqlite tutorial/template is in the sqlite repository. Until I use Sqlite in an actual program I decided to create a separate repository.
 int main(int argc, char* argv[]) {
    sqlite3 *db;
    char *zErrMsg = 0;
