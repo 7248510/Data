@@ -1,8 +1,8 @@
 # Compiling applications with sqlite3 Windows 10
-The compiler being used is below
-** Visual Studio 2019 Developer Command Prompt v16.0
-Files needed: 
-sqlite3.def, sqlite3.h & sqlite3.dll(Same directory as your application) 
+<br>The compiler being used is below
+<br>** Visual Studio 2019 Developer Command Prompt v16.0
+* Files needed: 
+    * sqlite3.def, sqlite3.h & sqlite3.dll(Same directory as your application) 
 0. Download "Precompiled Binaries for Windows", & "Source Code", select your architecture of windows
     Extract the files to a directory of your choice
 1. First you have to create the library.
