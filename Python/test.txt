@@ -1,0 +1,5 @@
+https://www.whatismybrowser.com/detect/what-http-headers-is-my-browser-sending
+https://github.com
+https://google.com
+https://facebook.com
+https://youtube.com
